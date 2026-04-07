@@ -1,16 +1,67 @@
-# React + Vite
+# 🧪 Lab 9 - Accessible Contact Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎯 Objective
+To design an accessible contact form using **React**, applying **semantic HTML** and **ARIA attributes** to improve usability for all users, including those using assistive technologies.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
+- ✅ Accessible form structure using semantic HTML
+- ✅ Proper `<label>` and `htmlFor` usage
+- ✅ ARIA support (`role="alert"`, `aria-live`)
+- ✅ Keyboard-friendly navigation
+- ✅ Form validation with error handling
+- ✅ Clean and modern UI design
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
+- React (Vite)
+- JavaScript (ES6)
+- HTML5 (Semantic elements)
+- CSS (Inline styling)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📋 How It Works
+- The form collects **Name, Email, and Message**
+- On submission:
+  - If fields are empty → ❌ error message is shown
+  - If all fields are filled → ✅ success message appears
+- Accessibility is ensured using:
+  - Labels for inputs
+  - ARIA attributes for screen readers
+
+---
+
+## ♿ Accessibility Features
+- `label + htmlFor` → improves screen reader support  
+- `aria-live="assertive"` → announces error instantly  
+- `role="alert"` → marks important messages  
+- Full keyboard navigation support  
+
+---
+
+## 📸 Output
+- Clean, centered contact form  
+- Responsive layout  
+- Accessible and user-friendly interface  
+
+---
+
+## 🔗 Live Demo
+👉 (Add your Netlify link here after deployment)
+
+---
+
+## 📂 GitHub Repository
+👉 https://github.com/Abhiram301/accessible-form
+
+---
+
+## 💬 Conclusion
+This lab demonstrates how to build an accessible and user-friendly form using React, ensuring better usability and inclusivity for all users.
+
+---
+
+⭐ *Developed as part of Full Stack Development Lab*
